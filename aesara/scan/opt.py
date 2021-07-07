@@ -79,12 +79,12 @@ from aesara.graph.op import compute_test_value
 from aesara.graph.opt import GlobalOptimizer, in2out, local_optimizer
 from aesara.graph.optdb import EquilibriumDB, SequenceDB
 from aesara.scan.op import Scan
+from aesara.scan.utils import ScanArgs as scan_args
 from aesara.scan.utils import (
     compress_outs,
     expand_empty,
     reconstruct_graph,
     safe_new,
-    scan_args,
     scan_can_remove_outs,
 )
 from aesara.tensor import basic_opt, math_opt
